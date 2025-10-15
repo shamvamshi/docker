@@ -1,3 +1,3 @@
 locals {
-  ami_id = data.aws_ami.roboshop
+  ami_id = data.aws_ami.roboshop.id
 }
