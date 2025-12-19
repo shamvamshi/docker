@@ -9,5 +9,5 @@ managedNodeGroups:
   - name: roboshop
     instanceType: m5.large
     desiredCapacity: 3
-    spot: true
+    # spot: true
     # autoModeConfig.enabled: false
