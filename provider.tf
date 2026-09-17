@@ -6,7 +6,7 @@ terraform {
     }
   }
     backend "s3" {
-      bucket = "sham-remote-state-dev"
+      bucket = "sham-remote-state-dev-905418225720"
       key = "roboshop-dev-docker"
       region = "us-east-1"
       encrypt = true
