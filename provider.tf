@@ -5,13 +5,13 @@ terraform {
         version = "5.98.0"
     }
   }
-    backend "s3" {
-      bucket = "sham-remote-state-dev-905418225720"
-      key = "roboshop-dev-docker"
-      region = "us-east-1"
-      encrypt = true
-      use_lockfile = true
-    }
+    # backend "s3" {
+    #   bucket = "sham-remote-state-dev-905418225720"
+    #   key = "roboshop-dev-docker"
+    #   region = "us-east-1"
+    #   encrypt = true
+    #   use_lockfile = true
+    # }
 
 }
 
